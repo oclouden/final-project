@@ -1,0 +1,59 @@
+.footer {
+    width: 1280px;
+    height: 455px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #EE4367;
+
+    p {
+        font-family: Gill;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+
+    .socialMedia {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+
+        .facebook {
+            width: 30px;
+            height: 30px;
+           
+            background-image: url(../images/social-media/facebook.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .instagram {
+            width: 30px;
+            height: 30px;
+           
+            background-image: url(../images/social-media/instagram.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .twitter {
+            width: 30px;
+            height: 30px;
+           
+            background-image: url(../images/social-media/twitter.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .copyright {
+        font-family: Gill;
+        font-size: 12px;
+        color: grey;
+        margin: auto;
+        text-align: center;
+    }
+    
+}

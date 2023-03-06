@@ -1,0 +1,28 @@
+nav {
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .links {
+        width: 524px; //50%
+        height: 42px;
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+
+            a {
+                font-family: Gill;
+                font-size: 15px;
+                margin: auto;
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+}
+
